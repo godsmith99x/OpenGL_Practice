@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/OpenGL_Practice2.dir/src/main.cpp.o  -o OpenGL_Practice2  ../dependencies/glfw-3.3.2/lib/libglfw3.a -lGL -ldl -lX11 -lpthread 
