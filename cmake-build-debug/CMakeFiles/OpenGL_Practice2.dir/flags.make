@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++2a
 
 CXX_DEFINES = -DGLEW_NO_GLU=1
 
-CXX_INCLUDES = -I/home/joel/Projects/OpenGL_Practice2/dependencies/glfw-3.3.2/include -I/home/joel/Projects/OpenGL_Practice2/dependencies/glew-2.2.0/include 
+CXX_INCLUDES = -I/home/joel/Projects/OpenGL_Practice/dependencies/glfw-3.3.2/include -I/home/joel/Projects/OpenGL_Practice/dependencies/glew-2.2.0/include 
 

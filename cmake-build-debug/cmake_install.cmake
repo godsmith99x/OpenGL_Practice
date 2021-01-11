@@ -1,4 +1,4 @@
-# Install script for directory: /home/joel/Projects/OpenGL_Practice2
+# Install script for directory: /home/joel/Projects/OpenGL_Practice
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/joel/Projects/OpenGL_Practice2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/joel/Projects/OpenGL_Practice/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
