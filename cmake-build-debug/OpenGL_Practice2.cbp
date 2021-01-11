@@ -44,7 +44,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DGLEW_NO_GLU=1"/>
 					<Add directory="/home/joel/Projects/OpenGL_Practice2/dependencies/glfw-3.3.2/include"/>
+					<Add directory="/home/joel/Projects/OpenGL_Practice2/dependencies/glew-2.2.0/include"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -67,7 +69,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DGLEW_NO_GLU=1"/>
 					<Add directory="/home/joel/Projects/OpenGL_Practice2/dependencies/glfw-3.3.2/include"/>
+					<Add directory="/home/joel/Projects/OpenGL_Practice2/dependencies/glew-2.2.0/include"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
