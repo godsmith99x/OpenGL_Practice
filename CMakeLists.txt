@@ -15,8 +15,10 @@ add_executable(OpenGL_Practice2 src/main.cpp)
 
 target_include_directories(${PROJECT_NAME} PRIVATE ${GLFW_INCLUDE_DIRS} ${GLEW_INCLUDE_DIRS})
 
-#Added because GL/glu.h is only included for old codebases, new projects don't need it.
-#(see https://github.com/nigels-com/glew/issues/192)
-target_compile_definitions(${PROJECT_NAME} PRIVATE -DGLEW_NO_GLU=1)
+#Added -DGLEW_NO_GLU=1 because GL/glu.h is only included for old codebases, new projects don't need it.
+    #(see https://github.com/nigels-com/glew/issues/192)
+#Added -DGLEW_STATIC because must be defined for all targets compiled as static library.
+    #(see https://github.com/nigels-com/glew/issues/161)
+target_compile_definitions(${PROJECT_NAME} PRIVATE -DGLEW_NO_GLU=1 -DGLEW_STATIC)
 
-target_link_libraries(${PROJECT_NAME} PRIVATE ${GLFW_LIBRARY} ${GLFW_DEPENDENCIES} ${GLEW_DEPENDENCIES})
+target_link_libraries(${PROJECT_NAME} PRIVATE ${GLFW_LIBRARY} ${GLFW_DEPENDENCIES} ${GLEW_LIBRARY} ${GLEW_DEPENDENCIES})

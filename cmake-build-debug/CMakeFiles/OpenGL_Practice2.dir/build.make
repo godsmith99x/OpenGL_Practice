@@ -100,6 +100,7 @@ OpenGL_Practice2_EXTERNAL_OBJECTS =
 OpenGL_Practice2: CMakeFiles/OpenGL_Practice2.dir/src/main.cpp.o
 OpenGL_Practice2: CMakeFiles/OpenGL_Practice2.dir/build.make
 OpenGL_Practice2: ../dependencies/glfw-3.3.2/lib/libglfw3.a
+OpenGL_Practice2: ../dependencies/glew-2.2.0/lib/libGLEW.a
 OpenGL_Practice2: CMakeFiles/OpenGL_Practice2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/joel/Projects/OpenGL_Practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable OpenGL_Practice2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenGL_Practice2.dir/link.txt --verbose=$(VERBOSE)
